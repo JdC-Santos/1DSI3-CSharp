@@ -1,0 +1,7 @@
+C:\Users\aluno1\Source\Repos\exerciciosParaNota02\Exercicio21\bin\Debug\Exercicio21.exe.config
+C:\Users\aluno1\Source\Repos\exerciciosParaNota02\Exercicio21\bin\Debug\Exercicio21.exe
+C:\Users\aluno1\Source\Repos\exerciciosParaNota02\Exercicio21\bin\Debug\Exercicio21.pdb
+C:\Users\aluno1\Source\Repos\exerciciosParaNota02\Exercicio21\obj\Debug\Exercicio21.csprojAssemblyReference.cache
+C:\Users\aluno1\Source\Repos\exerciciosParaNota02\Exercicio21\obj\Debug\Exercicio21.csproj.CoreCompileInputs.cache
+C:\Users\aluno1\Source\Repos\exerciciosParaNota02\Exercicio21\obj\Debug\Exercicio21.exe
+C:\Users\aluno1\Source\Repos\exerciciosParaNota02\Exercicio21\obj\Debug\Exercicio21.pdb

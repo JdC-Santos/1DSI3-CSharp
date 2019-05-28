@@ -1,0 +1,14 @@
+C:\Users\aluno1\Source\Repos\ListaDeExercicios02\ListaDeExercicios02\bin\Debug\ListaDeExercicios02.exe.config
+C:\Users\aluno1\Source\Repos\ListaDeExercicios02\ListaDeExercicios02\bin\Debug\ListaDeExercicios02.exe
+C:\Users\aluno1\Source\Repos\ListaDeExercicios02\ListaDeExercicios02\bin\Debug\ListaDeExercicios02.pdb
+C:\Users\aluno1\Source\Repos\ListaDeExercicios02\ListaDeExercicios02\obj\Debug\exercicio01.csprojAssemblyReference.cache
+C:\Users\aluno1\Source\Repos\ListaDeExercicios02\ListaDeExercicios02\obj\Debug\exercicio01.csproj.CoreCompileInputs.cache
+C:\Users\aluno1\Source\Repos\ListaDeExercicios02\ListaDeExercicios02\obj\Debug\ListaDeExercicios02.exe
+C:\Users\aluno1\Source\Repos\ListaDeExercicios02\ListaDeExercicios02\obj\Debug\ListaDeExercicios02.pdb
+C:\Users\aluno1\Downloads\ListaDeExercicios02\ListaDeExercicios02\bin\Debug\ListaDeExercicios02.exe.config
+C:\Users\aluno1\Downloads\ListaDeExercicios02\ListaDeExercicios02\bin\Debug\ListaDeExercicios02.exe
+C:\Users\aluno1\Downloads\ListaDeExercicios02\ListaDeExercicios02\bin\Debug\ListaDeExercicios02.pdb
+C:\Users\aluno1\Downloads\ListaDeExercicios02\ListaDeExercicios02\obj\Debug\exercicio01.csprojAssemblyReference.cache
+C:\Users\aluno1\Downloads\ListaDeExercicios02\ListaDeExercicios02\obj\Debug\exercicio01.csproj.CoreCompileInputs.cache
+C:\Users\aluno1\Downloads\ListaDeExercicios02\ListaDeExercicios02\obj\Debug\ListaDeExercicios02.exe
+C:\Users\aluno1\Downloads\ListaDeExercicios02\ListaDeExercicios02\obj\Debug\ListaDeExercicios02.pdb

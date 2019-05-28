@@ -1,0 +1,6 @@
+C:\Users\aluno1\Source\Repos\ProjetoExercicio9\ProjetoExercicio9\bin\Debug\ProjetoExercicio9.exe.config
+C:\Users\aluno1\Source\Repos\ProjetoExercicio9\ProjetoExercicio9\bin\Debug\ProjetoExercicio9.exe
+C:\Users\aluno1\Source\Repos\ProjetoExercicio9\ProjetoExercicio9\bin\Debug\ProjetoExercicio9.pdb
+C:\Users\aluno1\Source\Repos\ProjetoExercicio9\ProjetoExercicio9\obj\Debug\ProjetoExercicio9.csproj.CoreCompileInputs.cache
+C:\Users\aluno1\Source\Repos\ProjetoExercicio9\ProjetoExercicio9\obj\Debug\ProjetoExercicio9.exe
+C:\Users\aluno1\Source\Repos\ProjetoExercicio9\ProjetoExercicio9\obj\Debug\ProjetoExercicio9.pdb

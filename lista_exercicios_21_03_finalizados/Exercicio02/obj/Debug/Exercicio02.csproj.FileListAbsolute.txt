@@ -1,0 +1,13 @@
+C:\Users\aluno1\Source\Repos\ListaDeExercicios02\Exercicio02\bin\Debug\Exercicio02.exe.config
+C:\Users\aluno1\Source\Repos\ListaDeExercicios02\Exercicio02\bin\Debug\Exercicio02.exe
+C:\Users\aluno1\Source\Repos\ListaDeExercicios02\Exercicio02\bin\Debug\Exercicio02.pdb
+C:\Users\aluno1\Source\Repos\ListaDeExercicios02\Exercicio02\obj\Debug\Exercicio02.csproj.CoreCompileInputs.cache
+C:\Users\aluno1\Source\Repos\ListaDeExercicios02\Exercicio02\obj\Debug\Exercicio02.exe
+C:\Users\aluno1\Source\Repos\ListaDeExercicios02\Exercicio02\obj\Debug\Exercicio02.pdb
+C:\Users\aluno1\Downloads\ListaDeExercicios02\Exercicio02\bin\Debug\Exercicio02.exe.config
+C:\Users\aluno1\Downloads\ListaDeExercicios02\Exercicio02\bin\Debug\Exercicio02.exe
+C:\Users\aluno1\Downloads\ListaDeExercicios02\Exercicio02\bin\Debug\Exercicio02.pdb
+C:\Users\aluno1\Downloads\ListaDeExercicios02\Exercicio02\obj\Debug\Exercicio02.csprojAssemblyReference.cache
+C:\Users\aluno1\Downloads\ListaDeExercicios02\Exercicio02\obj\Debug\Exercicio02.csproj.CoreCompileInputs.cache
+C:\Users\aluno1\Downloads\ListaDeExercicios02\Exercicio02\obj\Debug\Exercicio02.exe
+C:\Users\aluno1\Downloads\ListaDeExercicios02\Exercicio02\obj\Debug\Exercicio02.pdb

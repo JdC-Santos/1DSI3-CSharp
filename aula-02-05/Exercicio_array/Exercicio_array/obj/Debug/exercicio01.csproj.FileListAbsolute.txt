@@ -1,0 +1,7 @@
+C:\Users\aluno1\Source\Repos\Exercicio_array\Exercicio_array\bin\Debug\Exercicio_array.exe.config
+C:\Users\aluno1\Source\Repos\Exercicio_array\Exercicio_array\bin\Debug\Exercicio_array.exe
+C:\Users\aluno1\Source\Repos\Exercicio_array\Exercicio_array\bin\Debug\Exercicio_array.pdb
+C:\Users\aluno1\Source\Repos\Exercicio_array\Exercicio_array\obj\Debug\exercicio01.csprojAssemblyReference.cache
+C:\Users\aluno1\Source\Repos\Exercicio_array\Exercicio_array\obj\Debug\exercicio01.csproj.CoreCompileInputs.cache
+C:\Users\aluno1\Source\Repos\Exercicio_array\Exercicio_array\obj\Debug\Exercicio_array.exe
+C:\Users\aluno1\Source\Repos\Exercicio_array\Exercicio_array\obj\Debug\Exercicio_array.pdb

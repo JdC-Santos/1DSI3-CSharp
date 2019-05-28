@@ -1,0 +1,7 @@
+C:\Users\aluno1\Source\Repos\ExercicioDiamante\ExercicioDiamante\bin\Debug\ExercicioDiamante.exe.config
+C:\Users\aluno1\Source\Repos\ExercicioDiamante\ExercicioDiamante\bin\Debug\ExercicioDiamante.exe
+C:\Users\aluno1\Source\Repos\ExercicioDiamante\ExercicioDiamante\bin\Debug\ExercicioDiamante.pdb
+C:\Users\aluno1\Source\Repos\ExercicioDiamante\ExercicioDiamante\obj\Debug\ExercicioDiamante.csprojAssemblyReference.cache
+C:\Users\aluno1\Source\Repos\ExercicioDiamante\ExercicioDiamante\obj\Debug\ExercicioDiamante.csproj.CoreCompileInputs.cache
+C:\Users\aluno1\Source\Repos\ExercicioDiamante\ExercicioDiamante\obj\Debug\ExercicioDiamante.exe
+C:\Users\aluno1\Source\Repos\ExercicioDiamante\ExercicioDiamante\obj\Debug\ExercicioDiamante.pdb

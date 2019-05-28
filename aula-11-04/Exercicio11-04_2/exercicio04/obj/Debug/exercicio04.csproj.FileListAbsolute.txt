@@ -1,0 +1,7 @@
+C:\Users\aluno1\Downloads\exercicio04\bin\Debug\exercicio04.exe.config
+C:\Users\aluno1\Downloads\exercicio04\bin\Debug\exercicio04.exe
+C:\Users\aluno1\Downloads\exercicio04\bin\Debug\exercicio04.pdb
+C:\Users\aluno1\Downloads\exercicio04\obj\Debug\exercicio04.csprojAssemblyReference.cache
+C:\Users\aluno1\Downloads\exercicio04\obj\Debug\exercicio04.csproj.CoreCompileInputs.cache
+C:\Users\aluno1\Downloads\exercicio04\obj\Debug\exercicio04.exe
+C:\Users\aluno1\Downloads\exercicio04\obj\Debug\exercicio04.pdb

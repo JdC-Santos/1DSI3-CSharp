@@ -1,0 +1,7 @@
+C:\Users\aluno2\Source\Repos\exercicioIMC\exercicioIMC\bin\Debug\exercicioIMC.exe.config
+C:\Users\aluno2\Source\Repos\exercicioIMC\exercicioIMC\bin\Debug\exercicioIMC.exe
+C:\Users\aluno2\Source\Repos\exercicioIMC\exercicioIMC\bin\Debug\exercicioIMC.pdb
+C:\Users\aluno2\Source\Repos\exercicioIMC\exercicioIMC\obj\Debug\exercicioIMC.csprojAssemblyReference.cache
+C:\Users\aluno2\Source\Repos\exercicioIMC\exercicioIMC\obj\Debug\exercicioIMC.csproj.CoreCompileInputs.cache
+C:\Users\aluno2\Source\Repos\exercicioIMC\exercicioIMC\obj\Debug\exercicioIMC.exe
+C:\Users\aluno2\Source\Repos\exercicioIMC\exercicioIMC\obj\Debug\exercicioIMC.pdb

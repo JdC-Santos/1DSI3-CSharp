@@ -1,0 +1,7 @@
+C:\Users\aluno1\Source\Repos\LanchesNET2\LanchesNET2\bin\Debug\LanchesNET2.exe.config
+C:\Users\aluno1\Source\Repos\LanchesNET2\LanchesNET2\bin\Debug\LanchesNET2.exe
+C:\Users\aluno1\Source\Repos\LanchesNET2\LanchesNET2\bin\Debug\LanchesNET2.pdb
+C:\Users\aluno1\Source\Repos\LanchesNET2\LanchesNET2\obj\Debug\LanchesNET2.csprojAssemblyReference.cache
+C:\Users\aluno1\Source\Repos\LanchesNET2\LanchesNET2\obj\Debug\LanchesNET2.csproj.CoreCompileInputs.cache
+C:\Users\aluno1\Source\Repos\LanchesNET2\LanchesNET2\obj\Debug\LanchesNET2.exe
+C:\Users\aluno1\Source\Repos\LanchesNET2\LanchesNET2\obj\Debug\LanchesNET2.pdb

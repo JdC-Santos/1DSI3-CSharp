@@ -1,0 +1,6 @@
+C:\Users\aluno1\Downloads\Exercicio05\bin\Debug\Exercicio05.exe.config
+C:\Users\aluno1\Downloads\Exercicio05\bin\Debug\Exercicio05.exe
+C:\Users\aluno1\Downloads\Exercicio05\bin\Debug\Exercicio05.pdb
+C:\Users\aluno1\Downloads\Exercicio05\obj\Debug\Exercicio05.csproj.CoreCompileInputs.cache
+C:\Users\aluno1\Downloads\Exercicio05\obj\Debug\Exercicio05.exe
+C:\Users\aluno1\Downloads\Exercicio05\obj\Debug\Exercicio05.pdb

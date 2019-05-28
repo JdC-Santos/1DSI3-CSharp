@@ -1,0 +1,6 @@
+C:\Users\aluno1\Source\Repos\ProjetoExercicio5\ProjetoExercicio5\bin\Debug\ProjetoExercicio5.exe.config
+C:\Users\aluno1\Source\Repos\ProjetoExercicio5\ProjetoExercicio5\bin\Debug\ProjetoExercicio5.exe
+C:\Users\aluno1\Source\Repos\ProjetoExercicio5\ProjetoExercicio5\bin\Debug\ProjetoExercicio5.pdb
+C:\Users\aluno1\Source\Repos\ProjetoExercicio5\ProjetoExercicio5\obj\Debug\ProjetoExercicio5.csproj.CoreCompileInputs.cache
+C:\Users\aluno1\Source\Repos\ProjetoExercicio5\ProjetoExercicio5\obj\Debug\ProjetoExercicio5.exe
+C:\Users\aluno1\Source\Repos\ProjetoExercicio5\ProjetoExercicio5\obj\Debug\ProjetoExercicio5.pdb

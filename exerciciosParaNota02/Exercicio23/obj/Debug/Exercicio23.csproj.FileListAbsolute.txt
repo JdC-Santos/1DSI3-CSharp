@@ -1,0 +1,6 @@
+C:\Users\aluno1\Source\Repos\exerciciosParaNota02\Exercicio23\bin\Debug\Exercicio23.exe.config
+C:\Users\aluno1\Source\Repos\exerciciosParaNota02\Exercicio23\bin\Debug\Exercicio23.exe
+C:\Users\aluno1\Source\Repos\exerciciosParaNota02\Exercicio23\bin\Debug\Exercicio23.pdb
+C:\Users\aluno1\Source\Repos\exerciciosParaNota02\Exercicio23\obj\Debug\Exercicio23.csproj.CoreCompileInputs.cache
+C:\Users\aluno1\Source\Repos\exerciciosParaNota02\Exercicio23\obj\Debug\Exercicio23.exe
+C:\Users\aluno1\Source\Repos\exerciciosParaNota02\Exercicio23\obj\Debug\Exercicio23.pdb

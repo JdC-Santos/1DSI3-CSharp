@@ -1,0 +1,6 @@
+C:\Users\aluno1\Source\Repos\exerciciosParaNota02\Exercicio22\bin\Debug\Exercicio22.exe.config
+C:\Users\aluno1\Source\Repos\exerciciosParaNota02\Exercicio22\bin\Debug\Exercicio22.exe
+C:\Users\aluno1\Source\Repos\exerciciosParaNota02\Exercicio22\bin\Debug\Exercicio22.pdb
+C:\Users\aluno1\Source\Repos\exerciciosParaNota02\Exercicio22\obj\Debug\Exercicio22.csproj.CoreCompileInputs.cache
+C:\Users\aluno1\Source\Repos\exerciciosParaNota02\Exercicio22\obj\Debug\Exercicio22.exe
+C:\Users\aluno1\Source\Repos\exerciciosParaNota02\Exercicio22\obj\Debug\Exercicio22.pdb

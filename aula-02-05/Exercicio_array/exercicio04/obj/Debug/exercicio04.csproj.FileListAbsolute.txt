@@ -1,0 +1,6 @@
+C:\Users\aluno1\Source\Repos\Exercicio_array\exercicio04\bin\Debug\exercicio04.exe.config
+C:\Users\aluno1\Source\Repos\Exercicio_array\exercicio04\bin\Debug\exercicio04.exe
+C:\Users\aluno1\Source\Repos\Exercicio_array\exercicio04\bin\Debug\exercicio04.pdb
+C:\Users\aluno1\Source\Repos\Exercicio_array\exercicio04\obj\Debug\exercicio04.csproj.CoreCompileInputs.cache
+C:\Users\aluno1\Source\Repos\Exercicio_array\exercicio04\obj\Debug\exercicio04.exe
+C:\Users\aluno1\Source\Repos\Exercicio_array\exercicio04\obj\Debug\exercicio04.pdb
