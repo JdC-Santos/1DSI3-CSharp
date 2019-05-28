@@ -34,7 +34,7 @@ namespace exercicio03
                             break;
 
                         case 1:
-                            CadastrarCarro(carro);
+                            CadastrarCarro(carro, nrCarro);
                             break;
 
                         case 2:
