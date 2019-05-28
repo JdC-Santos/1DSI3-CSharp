@@ -18,7 +18,7 @@ namespace exercicio03
         {
             Carro[] carro = new Carro[500];
             bool sair = false;
-            int opc;
+            int opc, nrCarro = 0;
 
             do
             {
@@ -34,6 +34,7 @@ namespace exercicio03
                             break;
 
                         case 1:
+                            CadastrarCarro(carro);
                             break;
 
                         case 2:
@@ -95,6 +96,29 @@ namespace exercicio03
             Console.WriteLine();
             Console.Write("Digite o número desejado: ");
             Console.ForegroundColor = ConsoleColor.Cyan;
+        }
+
+        static Carro[] CadastrarCarro(Carro[] carro, int nrCarro)
+        {
+            Console.Clear();
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("Digite o ano do carro: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            carro[nrCarro].Ano = int.Parse(Console.ReadLine());
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("Digite o modelo do carro: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            carro[nrCarro].Modelo = Console.ReadLine();
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("Digite o cor do carro: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            carro[nrCarro].Cor = Console.ReadLine();
+
+            carro[nrCarro].Modelo = Console.ReadLine();
+            return carro;
         }
     }
 }
