@@ -26,12 +26,47 @@ namespace exercicio03
                 try
                 {
                     opc = int.Parse(Console.ReadLine());
+
+                    switch (opc)
+                    {
+                        case 0:
+                            sair = true;
+                            break;
+
+                        case 1:
+                            break;
+
+                        case 2:
+                            break;
+
+                        case 3:
+                            break;
+
+                        case 4:
+                            break;
+
+                        case 5:
+                            break;
+
+                        case 6:
+                            break;
+
+                        case 7:
+                            break;
+
+                        default:
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("Digite um número entre 0 e 7!");
+                            Console.Write("Aperte uma tecla para continuar...");
+                            Console.ReadKey();
+                            break;
+                    }
                 }
                 catch (Exception)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Digite um número inteiro!");
-                    Console.Write("Digite uma tecla para continuar...");
+                    Console.Write("Aperte uma tecla para continuar...");
                     Console.ReadKey();
                 }
 
