@@ -19,7 +19,7 @@ namespace exercicio03
         {
             Carro[] carro = new Carro[500];
             bool sair = false;
-            int opc, nrCarro = 0;
+            int opc;
 
             do
             {
@@ -35,7 +35,7 @@ namespace exercicio03
                             break;
 
                         case 1:
-                            carro = CadastrarCarro(carro, nrCarro++);
+                            carro = CadastrarCarro(carro);
                             break;
 
                         case 2:
@@ -99,10 +99,20 @@ namespace exercicio03
             Console.ForegroundColor = ConsoleColor.Cyan;
         }
 
-        static Carro[] CadastrarCarro(Carro[] carro, int nrCarro)
+        static Carro[] CadastrarCarro(Carro[] carro)
         {
             bool sair = false;
-            do{
+            int nrCarro = 0;
+            do
+            {
+                foreach(Carro car in carro)
+                {
+                    if (car.Modelo != null)
+                    {
+                        nrCarro++;
+                    }
+                }
+
                 Console.Clear();
 
                 Console.ForegroundColor = ConsoleColor.Yellow;
@@ -135,16 +145,17 @@ namespace exercicio03
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("====================================================");
+            Console.WriteLine("|           Lista de Carros Registrados            |");
+            Console.WriteLine("====================================================");
+            Console.WriteLine("|      Modelo      |      Cor      |      ANO      |");
+            Console.WriteLine("====================================================");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+
             foreach (Carro carro in carros)
             {
-                if(carro.Cor != null)
+                if(carro.Ano == ano)
                 {
-                    Console.WriteLine("====================================================");
-                    Console.WriteLine("|           Lista de Carros Registrados            |");
-                    Console.WriteLine("====================================================");
-                    Console.WriteLine("|      Modelo      |      Cor      |      ANO      |");
-                    Console.WriteLine("====================================================");
-                    Console.ForegroundColor = ConsoleColor.Cyan;
 
                     Console.Write("| "+ carro.Modelo);
                     for (int i =0; i < 17 - carro.Modelo.Length; i++ )
@@ -164,11 +175,14 @@ namespace exercicio03
                         Console.Write(" ");
                     }
 
-                   Console.WriteLine("|");
+                    Console.WriteLine("|");
+                    Console.WriteLine("----------------------------------------------------");
                 }
             }
             Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Pressione uma tecla para voltar ao menu");
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.ReadKey();
         }
     }
