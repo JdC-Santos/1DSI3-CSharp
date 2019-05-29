@@ -14,6 +14,7 @@ namespace exercicio03
             public string Modelo;
             public string Cor;
         }
+
         static void Main(string[] args)
         {
             Carro[] carro = new Carro[500];
@@ -34,7 +35,7 @@ namespace exercicio03
                             break;
 
                         case 1:
-                            CadastrarCarro(carro, nrCarro);
+                            carro = CadastrarCarro(carro, nrCarro);
                             break;
 
                         case 2:
@@ -72,9 +73,7 @@ namespace exercicio03
                 }
 
             } while (!sair);
-
         }
-
         static void MostraMenu()
         {
             Console.Clear();
@@ -100,24 +99,33 @@ namespace exercicio03
 
         static Carro[] CadastrarCarro(Carro[] carro, int nrCarro)
         {
-            Console.Clear();
+            bool sair = false;
+            do{
+                Console.Clear();
 
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Write("Digite o ano do carro: ");
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            carro[nrCarro].Ano = int.Parse(Console.ReadLine());
-
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Write("Digite o modelo do carro: ");
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            carro[nrCarro].Modelo = Console.ReadLine();
-
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Write("Digite o cor do carro: ");
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            carro[nrCarro].Cor = Console.ReadLine();
-
-            carro[nrCarro].Modelo = Console.ReadLine();
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.Write("Digite o ano do carro: ");
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                carro[nrCarro].Ano = int.Parse(Console.ReadLine());
+    
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.Write("Digite o modelo do carro: ");
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                carro[nrCarro].Modelo = Console.ReadLine();
+    
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.Write("Digite o cor do carro: ");
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                carro[nrCarro].Cor = Console.ReadLine();
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                
+                Console.Write("Deseja registrar mais um carro?  < S | N >: ");
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                if(Console.ReadLine().ToLower() == "n"){
+                    sair = true;
+                }
+            }while(!sair);
+            
             return carro;
         }
     }
