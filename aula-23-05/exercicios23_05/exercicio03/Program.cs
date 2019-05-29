@@ -141,7 +141,7 @@ namespace exercicio03
             return carro;
         }
 
-        static void ConsultarCarroAno(Carro[] carros, int ano)
+        static void ConsultarCarroAno(Carro[] carros, int ano = 0, string modelo = "" , string cor = "")
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Yellow;
@@ -154,7 +154,7 @@ namespace exercicio03
 
             foreach (Carro carro in carros)
             {
-                if(carro.Ano == ano)
+                if(carro.Ano == ano || carro.Modelo == modelo || carro.Cor == cor)
                 {
 
                     Console.Write("| "+ carro.Modelo);
