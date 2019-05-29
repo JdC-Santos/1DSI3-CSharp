@@ -35,10 +35,12 @@ namespace exercicio03
                             break;
 
                         case 1:
-                            carro = CadastrarCarro(carro, nrCarro);
+                            carro = CadastrarCarro(carro, nrCarro++);
                             break;
 
                         case 2:
+                            Console.Write("Digite o ano que deseja procurar: ");
+                            ConsultarCarroAno(carro,int.Parse(Console.ReadLine()));
                             break;
 
                         case 3:
@@ -127,6 +129,47 @@ namespace exercicio03
             }while(!sair);
             
             return carro;
+        }
+
+        static void ConsultarCarroAno(Carro[] carros, int ano)
+        {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            foreach (Carro carro in carros)
+            {
+                if(carro.Cor != null)
+                {
+                    Console.WriteLine("====================================================");
+                    Console.WriteLine("|           Lista de Carros Registrados            |");
+                    Console.WriteLine("====================================================");
+                    Console.WriteLine("|      Modelo      |      Cor      |      ANO      |");
+                    Console.WriteLine("====================================================");
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+
+                    Console.Write("| "+ carro.Modelo);
+                    for (int i =0; i < 17 - carro.Modelo.Length; i++ )
+                    {
+                        Console.Write(" ");
+                    }
+
+                    Console.Write("| " + carro.Cor);
+                    for (int i = 0; i < 14 - carro.Cor.Length; i++)
+                    {
+                        Console.Write(" ");
+                    }
+
+                    Console.Write("| " + carro.Ano);
+                    for (int i = 0; i < 14 - carro.Ano.ToString().Length; i++)
+                    {
+                        Console.Write(" ");
+                    }
+
+                   Console.WriteLine("|");
+                }
+            }
+            Console.WriteLine();
+            Console.WriteLine("Pressione uma tecla para voltar ao menu");
+            Console.ReadKey();
         }
     }
 }
