@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aluno1\\Downloads\\1DSI3-CSharp\\aula-23-05\\exercicios23_05\\exercicio02\\exercicio02.csproj",
+      "projectUniqueName": "C:\\Users\\aluno1\\Desktop\\1DSI3-CSharp\\aula-23-05\\exercicios23_05\\exercicio02\\exercicio02.csproj",
       "projectName": "exercicio02",
-      "projectPath": "C:\\Users\\aluno1\\Downloads\\1DSI3-CSharp\\aula-23-05\\exercicios23_05\\exercicio02\\exercicio02.csproj",
+      "projectPath": "C:\\Users\\aluno1\\Desktop\\1DSI3-CSharp\\aula-23-05\\exercicios23_05\\exercicio02\\exercicio02.csproj",
       "packagesPath": "C:\\Users\\aluno1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aluno1\\Downloads\\1DSI3-CSharp\\aula-23-05\\exercicios23_05\\exercicio02\\obj\\",
+      "outputPath": "C:\\Users\\aluno1\\Desktop\\1DSI3-CSharp\\aula-23-05\\exercicios23_05\\exercicio02\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

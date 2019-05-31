@@ -40,16 +40,21 @@ namespace exercicio03
 
                         case 2:
                             Console.Write("Digite o ano que deseja procurar: ");
-                            ConsultarCarroAno(carro,int.Parse(Console.ReadLine()));
+                            ConsultarCarroAno(carro, false, int.Parse(Console.ReadLine()),"","");
                             break;
 
                         case 3:
+                            Console.Write("Digite o modelo que deseja procurar: ");
+                            ConsultarCarroAno(carro, false, 1, Console.ReadLine(),"");
                             break;
 
                         case 4:
+                            Console.Write("Digite a cor que deseja procurar: ");
+                            ConsultarCarroAno(carro, false, 1,"", Console.ReadLine());
                             break;
 
                         case 5:
+                            ConsultarCarroAno(carro, true, 1, "","");
                             break;
 
                         case 6:
@@ -66,10 +71,11 @@ namespace exercicio03
                             break;
                     }
                 }
-                catch (Exception)
+                catch (Exception e)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Digite um número inteiro!");
+                    Console.WriteLine(e);
                     Console.Write("Aperte uma tecla para continuar...");
                     Console.ReadKey();
                 }
@@ -141,7 +147,7 @@ namespace exercicio03
             return carro;
         }
 
-        static void ConsultarCarroAno(Carro[] carros, int ano = 0, string modelo = "" , string cor = "")
+        static void ConsultarCarroAno(Carro[] carros, bool mostrarTodos , int ano, string modelo = "" , string cor = "")
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Yellow;
@@ -154,7 +160,7 @@ namespace exercicio03
 
             foreach (Carro carro in carros)
             {
-                if(carro.Ano == ano || carro.Modelo == modelo || carro.Cor == cor)
+               if((carro.Ano == ano || carro.Modelo == modelo || carro.Cor == cor) || (mostrarTodos && carro.Modelo != null))
                 {
 
                     Console.Write("| "+ carro.Modelo);

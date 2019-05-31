@@ -5,3 +5,10 @@ C:\Users\aluno1\Downloads\1DSI3-CSharp\aula-23-05\exercicios23_05\exercicio03\ob
 C:\Users\aluno1\Downloads\1DSI3-CSharp\aula-23-05\exercicios23_05\exercicio03\obj\Debug\exercicio03.csproj.CoreCompileInputs.cache
 C:\Users\aluno1\Downloads\1DSI3-CSharp\aula-23-05\exercicios23_05\exercicio03\obj\Debug\exercicio03.exe
 C:\Users\aluno1\Downloads\1DSI3-CSharp\aula-23-05\exercicios23_05\exercicio03\obj\Debug\exercicio03.pdb
+C:\Users\aluno1\Desktop\1DSI3-CSharp\aula-23-05\exercicios23_05\exercicio03\bin\Debug\exercicio03.exe.config
+C:\Users\aluno1\Desktop\1DSI3-CSharp\aula-23-05\exercicios23_05\exercicio03\bin\Debug\exercicio03.exe
+C:\Users\aluno1\Desktop\1DSI3-CSharp\aula-23-05\exercicios23_05\exercicio03\bin\Debug\exercicio03.pdb
+C:\Users\aluno1\Desktop\1DSI3-CSharp\aula-23-05\exercicios23_05\exercicio03\obj\Debug\exercicio03.csprojAssemblyReference.cache
+C:\Users\aluno1\Desktop\1DSI3-CSharp\aula-23-05\exercicios23_05\exercicio03\obj\Debug\exercicio03.csproj.CoreCompileInputs.cache
+C:\Users\aluno1\Desktop\1DSI3-CSharp\aula-23-05\exercicios23_05\exercicio03\obj\Debug\exercicio03.exe
+C:\Users\aluno1\Desktop\1DSI3-CSharp\aula-23-05\exercicios23_05\exercicio03\obj\Debug\exercicio03.pdb
