@@ -58,6 +58,10 @@ namespace exercicio03
                             break;
 
                         case 6:
+                            Console.ForegroundColor = ConsoleColor.Yellow;
+                            Console.Write("Digite o código do carro que deseja atualizar: ");
+                            Console.ForegroundColor = ConsoleColor.Cyan;
+                            carro = AtualizarCarro(carro,( int.Parse(Console.ReadLine()) - 1 ));
                             break;
 
                         case 7:
@@ -149,19 +153,26 @@ namespace exercicio03
 
         static void ConsultarCarroAno(Carro[] carros, bool mostrarTodos , int ano, string modelo = "" , string cor = "")
         {
+            int linha = 1;
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("====================================================");
-            Console.WriteLine("|           Lista de Carros Registrados            |");
-            Console.WriteLine("====================================================");
-            Console.WriteLine("|      Modelo      |      Cor      |      ANO      |");
-            Console.WriteLine("====================================================");
+            Console.WriteLine("==========================================================");
+            Console.WriteLine("|              Lista de Carros Registrados               |");
+            Console.WriteLine("==========================================================");
+            Console.WriteLine("| Cod |      Modelo      |      Cor      |      ANO      |");
+            Console.WriteLine("==========================================================");
             Console.ForegroundColor = ConsoleColor.Cyan;
 
             foreach (Carro carro in carros)
             {
                if((carro.Ano == ano || carro.Modelo == modelo || carro.Cor == cor) || (mostrarTodos && carro.Modelo != null))
                 {
+                    Console.Write("| {0} ",linha++);
+
+                    for (int i = 0; i < 3 - linha.ToString().Length; i++)
+                    {
+                        Console.Write(" ");
+                    }
 
                     Console.Write("| "+ carro.Modelo);
                     for (int i =0; i < 17 - carro.Modelo.Length; i++ )
@@ -182,14 +193,40 @@ namespace exercicio03
                     }
 
                     Console.WriteLine("|");
-                    Console.WriteLine("----------------------------------------------------");
+                    Console.WriteLine("----------------------------------------------------------");
                 }
             }
+
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Pressione uma tecla para voltar ao menu");
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.ReadKey();
+        }
+
+        static Carro[] AtualizarCarro(Carro[] carro, int nrCarro)
+        {
+            Console.Clear();
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Ano do carro {0}", carro[nrCarro].Ano);
+            Console.Write("Atualize o ano do carro: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            carro[nrCarro].Ano = int.Parse(Console.ReadLine());
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Modelo do carro {0}", carro[nrCarro].Modelo);
+            Console.Write("Atualize o modelo do carro: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            carro[nrCarro].Modelo = Console.ReadLine();
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Cor do carro {0}", carro[nrCarro].Cor);
+            Console.Write("Atualize a cor do carro: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            carro[nrCarro].Cor = Console.ReadLine();
+
+            return carro;
         }
     }
 }
