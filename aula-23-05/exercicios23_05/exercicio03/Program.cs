@@ -18,6 +18,7 @@ namespace exercicio03
         static void Main(string[] args)
         {
             Carro[] carro = new Carro[500];
+            Carro[] novoCarro = new Carro[500];
             bool sair = false;
             int opc;
 
@@ -39,17 +40,23 @@ namespace exercicio03
                             break;
 
                         case 2:
+                            Console.ForegroundColor = ConsoleColor.Yellow;
                             Console.Write("Digite o ano que deseja procurar: ");
+                            Console.ForegroundColor = ConsoleColor.Cyan;
                             ConsultarCarroAno(carro, false, int.Parse(Console.ReadLine()),"","");
                             break;
 
                         case 3:
+                            Console.ForegroundColor = ConsoleColor.Yellow;
                             Console.Write("Digite o modelo que deseja procurar: ");
+                            Console.ForegroundColor = ConsoleColor.Cyan;
                             ConsultarCarroAno(carro, false, 1, Console.ReadLine(),"");
                             break;
 
                         case 4:
+                            Console.ForegroundColor = ConsoleColor.Yellow;
                             Console.Write("Digite a cor que deseja procurar: ");
+                            Console.ForegroundColor = ConsoleColor.Cyan;
                             ConsultarCarroAno(carro, false, 1,"", Console.ReadLine());
                             break;
 
@@ -65,6 +72,10 @@ namespace exercicio03
                             break;
 
                         case 7:
+                            Console.ForegroundColor = ConsoleColor.Yellow;
+                            Console.Write("Digite o código do carro que deseja excluir: ");
+                            Console.ForegroundColor = ConsoleColor.Cyan;
+                            carro = ExcluirCarro(carro, novoCarro, int.Parse(Console.ReadLine()));
                             break;
 
                         default:
@@ -79,7 +90,7 @@ namespace exercicio03
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Digite um número inteiro!");
-                    Console.WriteLine(e);
+                    //Console.WriteLine(e);
                     Console.Write("Aperte uma tecla para continuar...");
                     Console.ReadKey();
                 }
@@ -229,15 +240,36 @@ namespace exercicio03
             return carro;
         }
 
-        static Carro[] ExcluirCarro(Carro[] carro, int nrCarro)
+        static Carro[] ExcluirCarro(Carro[] carro, Carro[] novoCarro, int nrCarro)
         {
-            foreach (Carro car in carro)
+            Console.Clear();
+            int p = 0;
+            bool excluiu = false;
+ 
+            for (int i = 0; i < carro.Length; i++)
             {
-
+                if (i != nrCarro)
+                {
+                    novoCarro[p].Ano    = carro[i].Ano;
+                    novoCarro[p].Modelo = carro[i].Modelo;
+                    novoCarro[p].Cor    = carro[i].Cor;
+                    p++;
+                }
+                else
+                {
+                    excluiu = true;
+                }
             }
 
+            if (excluiu)
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("Carro excluido com sucesso!");
+                Console.WriteLine("Digite uma tecla para contnuar...");
+                Console.ReadKey();
+            }
 
-            return carro;
+            return novoCarro;
         }
     }
 }
