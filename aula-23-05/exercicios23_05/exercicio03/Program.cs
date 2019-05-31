@@ -228,5 +228,16 @@ namespace exercicio03
 
             return carro;
         }
+
+        static Carro[] ExcluirCarro(Carro[] carro, int nrCarro)
+        {
+            foreach (Carro car in carro)
+            {
+
+            }
+
+
+            return carro;
+        }
     }
 }
