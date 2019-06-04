@@ -73,7 +73,7 @@ namespace exercicios23_05
                     data.dia = int.Parse(Console.ReadLine());
 
                     //validacao do ano
-                    if(data.ano/4 == 0)
+                    if((data.ano%4 == 0) && (data.ano%100 == 0 ) || (data.ano%400 == 0))
                     {
                         if ((data.mes == 1 && data.dia <= 31) || 
                             (data.mes == 2 && data.dia <= 29) ||

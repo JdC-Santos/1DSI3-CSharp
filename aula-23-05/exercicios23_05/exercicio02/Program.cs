@@ -110,24 +110,11 @@ namespace structure
                         sair = "n";
                         break;
                     case 0:
-                        sair = "n";
+                        sair = "s";
                         break;
                 }
 
             } while (sair == "n");
-
-
-            for (int i = 0; i < 10; i++)
-            {
-                aluno[i].nome = "aluno" + i;
-            }
-
-            for (int i = 0; i < 10; i++)
-            {
-                Console.WriteLine(aluno[i].nome);
-            }
-            Console.ReadKey();
-
         }
     }
 }
